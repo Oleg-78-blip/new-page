@@ -49,3 +49,8 @@
 .color-3 {
     background-color: blueviolet;
 }
+
+h2 {
+    text-transform: uppercase;
+    color: darkgrey;
+}
