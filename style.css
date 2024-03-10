@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1520px;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+
+.images {
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+}
+
+.images img {
+    width: 500px;
+    max-width: 100%;
+    height: 300px;
+    max-height: 100%;
+}
+
+.block-color {
+    width: 1500px;
+    max-width: 100%;
+    display: flex;
+}
+
+.color {
+    width: 500px;
+    max-width: 100%;
+    height: 300px;
+    max-height: 100%;
+}
+
+.color-1 {
+    background-color: blueviolet;
+}
+
+.color-2 {
+    background-color: rgb(226, 217, 43);
+}
+
+.color-3 {
+    background-color: blueviolet;
+}
