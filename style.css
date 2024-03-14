@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(160, 152, 152);
+}
+
 .wow {
     visibility: hidden;
 }
@@ -16,9 +20,63 @@
 .wow {
     text-align: center;
     font-size: 50px;
-    color: rgb(216, 135, 222);
+    color: rgb(222, 221, 135);
     margin-top: 50px;
-    animation-duration: 2s;
-    animation-delay: 1s;
-    animation-iteration-count: 1;
+}
+
+.box {
+    overflow: hidden;
+    width: 470px;
+    border-radius: 90px;
+    margin: 0 auto;
+    z-index: 10;
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    -ms-border-radius: 90px;
+    -o-border-radius: 90px;
+}
+
+.img {
+    display: block;
+    margin: 0 auto;
+    transition: 1s;
+    border-radius: 90px;
+    -webkit-border-radius: 90px;
+    -moz-border-radius: 90px;
+    -ms-border-radius: 90px;
+    -o-border-radius: 90px;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.img:hover {
+    transform: scale(1.1) rotate(1deg);
+    -webkit-transform: scale(1.1) rotate(1deg);
+    -moz-transform: scale(1.1) rotate(1deg);
+    -ms-transform: scale(1.1) rotate(1deg);
+    -o-transform: scale(1.1) rotate(1deg);
+}
+
+.border {
+    width: 400px;
+    height: 50px;
+    margin: 0 auto;
+    border: 2px solid rgb(206, 154, 154);
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.border:hover {
+    width: clamp(0, 0, 0, 300px);
+}
+
+.nz {
+    font-size: 70px;
+    color: rgb(208, 186, 159);
+    cursor: pointer;
 }
